@@ -6,7 +6,7 @@ function setup() {
 
 
 function draw() {
-	background(33, 33, 33);
+	background(30, 30, 40);
 
 	//adjust coordinate system to center
 	translate(200, 200);

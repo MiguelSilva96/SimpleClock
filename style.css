@@ -1,14 +1,22 @@
 html, body {
   height: 100%;
-  background-color: rgb(33,33,33);
+  background-color: rgb(30,30,40);
+  font-family: "Helvetica";
 }
 
 body {
+  text-align: center;
+}
 
-  margin: 0;
-  display: flex;
+a {
+	text-decoration: none;
+}
 
-  /* center horizontally. */
-  justify-content: center;
-  
+footer {
+	position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 10px;
 }
